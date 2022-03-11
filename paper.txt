@@ -25,5 +25,13 @@ courses outline
  -Animation
  -Writing future css
  -Sass introduction
+  
+  section 2
 
- 
+     //  Adding page css
+
+- Background is propertiy   red is value     #ffei   ths is calle hexcode
+ -  <section style="background:red ;">    this is inline code css
+
+
+* understing the style Tag $ creating css file
