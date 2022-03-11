@@ -1,0 +1,29 @@
+
+courses outline
+
+ Basic Track
+
+ - Getting starting
+ -The Basic 
+ -diving deeper
+ -more on selector and css feature
+ -practing css
+ -postions
+
+ Advanced css
+
+ -Background and image
+ -Dimensions unites
+ -Responsizes
+ -Styling forms
+ -working with text and fonts
+ 
+ Expert
+
+ - transiformation
+ -Transtions
+ -Animation
+ -Writing future css
+ -Sass introduction
+
+ 
