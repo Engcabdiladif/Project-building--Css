@@ -35,3 +35,54 @@ courses outline
 
 
 * understing the style Tag $ creating css file
+
+
+
+section 9
+
+1 - what is the add combinators ?
+. combinator is something that explains the relationship between the selectors. A CSS selector
+ can contain more than one simple selector.
+
+ . isku-duwaha waa shay sharxayaa xidhiidhka ka dhexeeya xulayaasha. Xulashada CSS waxa uu ka koobnaan karaa
+  wax ka badan hal dooriye oo fudud
+
+  understing combinators
+
+
+  + Adjacent sibling               +   General sibling
+                                 
+  Example                          Example
+                                    
+                                 
+  h2 + p {                       h2 ~ p{
+                                color : red;
+                            }
+     color: red
+  }
+
+  * Element share the same           * Element share the same parent
+                                   * second element comes after first element
+  parent
+  * second Element comes
+  immediately after first Element
+
+  + child  sibling
+
+  Example 
+
+  div > p{
+     color : red;
+  }
+
+  * second element is a direct
+  child of first
+
++ Descendant
+
+div p{
+   color: red;
+}
+
+* second element is a 
+Descendant of the first element

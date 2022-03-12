@@ -1,4 +1,7 @@
+body {
 
+    font-family: fantasy;
+}
     #product-overview{
     
         background: #ff1b68;
@@ -6,13 +9,18 @@
         padding: 10px;
     }
 
-#plans{
 
-    font-family: cursive;
-    padding: 10px;
-    background: #ff1b68;
-    margin-top: 5px;
-}
 .section-title{
-    color: #ff54;
+    color: rgba(15, 231, 33, 0.884);
+    font-family: inherit;
+
+}
+
+/* h1{
+    font-family: serif;
+} */
+
+h1{
+    font-family: cursive;
+    color: aliceblue;
 }
