@@ -4,13 +4,13 @@ body {
 }
     #product-overview{
     
-        background: #ff1b68;
-        color: aqua;
-        padding: 10px;
-    }
+         background: #ff1b68;
+         width: 100%;
+         height: 300px;
+    } 
 
 
-.section-title{
+.first-section-title{
     color: rgba(15, 231, 33, 0.884);
     font-family: inherit;
 
