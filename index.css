@@ -4,7 +4,7 @@ body {
 }
     #product-overview{
     
-         background: #ff1b68;
+         background: url("sawir.jpg");
          width: 100%;
          height: 528px;
          padding: 10px;
@@ -32,7 +32,7 @@ h1{
 .main-header {
 
  width: 100%;
- background-color: #ff821b;
+ background-color: #f3dfcf;
  padding: 8px 16px;
  
 
@@ -45,15 +45,23 @@ h1{
 .main-nav_item {
     display: inline-block;
     font-family: cursive;
+    margin: 0px 16px;
     
 }
 
+.main-nav_item a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: bold;
+    padding: 3px 0px;
+}
 
 .main-nav {
 
     display: inline-block;
     text-align: right;
-    width: calc(100% - 49px);
+    width: calc(100% - 74px);
+    vertical-align: middle;
     
     
 }
@@ -62,4 +70,33 @@ h1{
     padding: 0;
     list-style: none;
 
+}
+
+.main-header_brand {
+    color: #ff821b;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+}
+.main-nav_item a:hover {
+    color: #ff821b;
+}
+
+.main-nav_item a:active {
+    color: aliceblue;
+}
+.main-nav_item--cta {
+
+    color: #f3dfcf;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav_item--cta a:hover,
+.main-nav_item--cta a:active {
+    color: aliceblue;
+    background-color: #ff1b68;
+    border: none;
 }
